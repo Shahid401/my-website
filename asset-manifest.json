@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ce7b30b.chunk.css",
+    "main.js": "/static/js/main.295aeb06.chunk.js",
+    "main.js.map": "/static/js/main.295aeb06.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.618c94da.js",
+    "runtime-main.js.map": "/static/js/runtime-main.618c94da.js.map",
+    "static/css/2.ea6b7726.chunk.css": "/static/css/2.ea6b7726.chunk.css",
+    "static/js/2.f09430fd.chunk.js": "/static/js/2.f09430fd.chunk.js",
+    "static/js/2.f09430fd.chunk.js.map": "/static/js/2.f09430fd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b1423136ed6100f3aa48843436d4dead.js": "/precache-manifest.b1423136ed6100f3aa48843436d4dead.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ea6b7726.chunk.css.map": "/static/css/2.ea6b7726.chunk.css.map",
+    "static/css/main.0ce7b30b.chunk.css.map": "/static/css/main.0ce7b30b.chunk.css.map",
+    "static/js/2.f09430fd.chunk.js.LICENSE.txt": "/static/js/2.f09430fd.chunk.js.LICENSE.txt",
+    "static/media/banner.jpg": "/static/media/banner.7221b950.jpg",
+    "static/media/colorful.png": "/static/media/colorful.37863612.png",
+    "static/media/home-about.jpeg": "/static/media/home-about.2f01ad59.jpeg",
+    "static/media/led-bulb-banner.jpg": "/static/media/led-bulb-banner.b2d08e24.jpg",
+    "static/media/led.jpg": "/static/media/led.45de5a5a.jpg",
+    "static/media/rechargeable.jpg": "/static/media/rechargeable.baed90c2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.618c94da.js",
+    "static/css/2.ea6b7726.chunk.css",
+    "static/js/2.f09430fd.chunk.js",
+    "static/css/main.0ce7b30b.chunk.css",
+    "static/js/main.295aeb06.chunk.js"
+  ]
+}
