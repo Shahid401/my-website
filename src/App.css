@@ -1,0 +1,258 @@
+:root {
+    --main-color-first: #fd7130;
+    --main-color-second: #a0e8eb;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --light-black: #222222;
+  }
+
+
+  .sub-title {
+      text-transform: uppercase;
+      color: var(--main-color-first);
+  }
+
+  p {
+      text-align: justify;
+      font-size: 18px;
+      line-height: 30px;
+  }
+  .default-btn {
+    text-decoration: none;
+    background-color: var(--main-color-first);
+    padding: 5px 10px 5px 0px !important;
+    text-align: center !important;
+    color: var(--white-color);
+  }
+
+  .default-btn:hover, .default-btn:focus {
+    color: var(--white-color);
+  }
+
+
+
+/* navbar start */
+.navbar {
+    background-color: var(--white-color) !important;
+    box-shadow: 0px 0px 6px 2px #137f84;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.navbar .nav-item {
+    padding: 0px 5px;
+}
+.navbar .nav-item .nav-link {
+    color: #137f84;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar .nav-item .nav-link:hover, .navbar .nav-item .nav-link:focus {
+    color: var(--main-color-first);
+}
+.btn-warning {
+    border: none !important;
+    border-radius: none !important;
+    animation:  buynow .9s infinite;
+}
+
+@keyframes buynow {
+    0%  {background-color:green; left:0px; top:200px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+/* navbar end */
+
+/* banner start */
+.home .banner img {
+    width: 100%;
+}
+
+.HomeAbout{
+    background-color: var(--main-color-first);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.HomeAbout img {
+    box-shadow: 1px 1px 15px 5px #ffffff ;
+}
+/* banner end */
+
+/* about start */
+.about {
+    padding: 50px !important;
+}
+/* about end */
+
+/* smallBanner start */
+.smallBanner img {
+    width: 100% !important;
+}
+/* smallBanner end */
+/* products start */
+.products {
+    background-color: var(--light-black);
+    padding: 20px 0px;
+}
+
+.products h2 {
+    font-size: 20px;
+}
+.products-btn {
+    text-decoration: none;
+    background-color: #fe9102;
+    padding: 5px;
+    color: var(--white-color);
+    margin-top: 50px !important;
+  }
+.products-btn:hover, .products-btn:focus {
+    color: var(--white-color);
+  }  
+
+  .products-btn .buyNow {
+      margin-left: 100px !important;
+  }
+
+  .products .buyNow a {
+    text-decoration: none;
+    background-color:#7aec03;
+    padding: 5px 17px 5px 0px !important;
+    color: var(--white-color);
+    margin-top: 50px !important;
+    padding: 5px 15px;
+  }
+.products .buyNow:hover, .products .buyNow:focus {
+    color: var(--white-color);
+  } 
+
+.buyNowLed a {
+    text-decoration: none;
+    background-color: #fe9102;
+    padding: 5px 17px 5px 0px !important;
+
+    color: var(--white-color);
+    margin-top: 50px !important;
+  }
+
+.buyNowColorful a {
+    text-decoration: none;
+    background-image: linear-gradient(to left, #fe9102 , #7aec03);
+    padding: 5px 17px 5px 0px !important;
+    color: var(--white-color);
+    margin-top: 50px !important;
+  }
+
+.led-title {
+    padding: 10px 0px;  
+    z-index: 2;
+    color: #fff;
+    background-color: #fe9102;
+    border-color: #fe9102;
+}  
+
+.chargeable-title  {
+    z-index: 2;
+    padding: 10px 0px;
+    color: #fff;
+    background-color: #7aec03;
+    border-color: #7aec03;
+}
+
+.colorful-title {
+    z-index: 2;
+    padding: 10px 0px;
+    color: #fff;
+    background-image: linear-gradient(to right, #fe9102 , #7aec03);
+    border-image: linear-gradient(to right, #fe9102 , #7aec03);
+}
+/* products end */
+
+/* services start */
+.services {
+    background-color: var(--light-black);
+    padding: 20px 0px;
+}
+/* services end */
+
+
+/* call callNow start */
+.callNow {
+    background-image: linear-gradient(to right, #fe9102 , #7aec03);
+    padding: 40px 2px;
+    box-shadow: 0px 0px 6px 2px #000000;
+}
+.callNow h3 {
+    font-size: 25px;
+}
+.callNow  a {
+    text-decoration: none;
+    font-size: 40px;
+    padding: 5px;
+    background-image: linear-gradient(to right, #fe9102 , #7aec03);
+    box-shadow: 0px 0px 6px 2px #000000;
+}
+/* callcallNow end */
+
+/* contact us start */
+.contact-us {
+    background-color: #222222;
+}
+
+.contact-us img {
+    font-size: 12px !important;
+}
+
+.contact-box {
+    background-image: linear-gradient(to right,  #7aec03, #fe9102);
+    padding: 40px 2px;
+    box-shadow: 0px 5px 2px 2px #fff;
+}
+/* contact us end */
+
+
+/* footer start */
+.footer {
+    color: var(--white-color);
+    background-color: var(--black-color);
+    padding: 10px 0px 1px 0px;
+}
+.footer p {
+    text-align: center !important;
+}
+/* footer end */
+
+.whatsApp {
+    position: fixed;
+    left: 10px;
+    bottom: 0;
+    width: 10%;
+    z-index: 999;
+    text-align: center;
+    border-radius: 25px;
+    padding-bottom: 70px;
+ }
+
+ .fab {
+     color: #027901;
+     font-size: 50px;
+ }
+
+ .phone {
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+    width: 10%;
+    z-index: 999;
+    text-align: center;
+    border-radius: 25px;
+    padding-bottom: 70px;
+ }
+
+ .fas {
+     color: #fff;
+     font-size: 50px;
+ }
+ 
+
